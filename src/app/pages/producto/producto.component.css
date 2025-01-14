@@ -1,0 +1,21 @@
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    width: 100%;            /* La imagen ocupa todo el ancho del card */
+    height: 200px;          /* Define una altura uniforme */
+    object-fit: contain;    /* Evita recortes en las imágenes */
+    background-color: #f8f9fa; /* Fondo gris claro para imágenes más pequeñas */
+    border-top-left-radius: 0.25rem; /* Bordes redondeados */
+    border-top-right-radius: 0.25rem;
+  }
+  
+  
+  
+  
